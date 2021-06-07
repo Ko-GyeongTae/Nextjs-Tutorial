@@ -1,3 +1,8 @@
+.wrap {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
 .img_item {
     display: block;
     margin: 0 auto;

@@ -1,6 +1,5 @@
 import axios from 'axios';
 import Head from 'next/head'
-import Image from 'next/image'
 import { useEffect, useState } from 'react';
 import { Divider, Header } from 'semantic-ui-react';
 import ItemList from '../src/components/ItemList';
@@ -36,7 +35,7 @@ export default function Home() {
         신상품
       </Header>
       <Divider />
-      <ItemList list={list}/>
+      <ItemList list={list.slice(9)}/>
     </div>
   )
 }

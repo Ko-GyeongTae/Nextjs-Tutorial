@@ -1,3 +1,10 @@
-export default function About() {
-    return <div>ID</div>;
-}
+import { useRouter } from 'next/router';
+
+const Post = () => {
+    const router = useRouter();
+    const { id } = router.query;
+
+    return <p>Post: {id}</p>;
+};
+
+export default Post;
