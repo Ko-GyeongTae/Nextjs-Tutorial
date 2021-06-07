@@ -1,4 +1,4 @@
-import { Header } from "semantic-ui-react"
+import { Header, Item } from "semantic-ui-react"
 import Gnb from "./Gnb"
 
 export default function Top() {
